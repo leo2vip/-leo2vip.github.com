@@ -70,6 +70,17 @@ body {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#825b00',GradientType=0 );
   /* IE6-9 */ }
+  .outer.del-header {
+    max-height: 2000px;
+    overflow: auto; }
+    .outer.del-header .page-content {
+      margin-top: 0; }
+      .outer.del-header .page-content .card {
+        margin-top: 0; }
+        .outer.del-header .page-content .card .card-content {
+          padding-top: 10px; }
+          .outer.del-header .page-content .card .card-content .post-content img {
+            width: 100%; }
 
 .card-panel {
   transition: box-shadow .25s;
@@ -747,8 +758,6 @@ h6 {
 
 .post .card-content {
   padding: 80px 20px; }
-  .post .card-content .post-content img {
-    width: 100%; }
 
 .footer-heading {
   display: block;
