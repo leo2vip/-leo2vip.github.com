@@ -127,6 +127,11 @@
 .post{
     .card-content{
             padding: 80px 20px;
+            .post-content {
+                img {
+                    width: 100%;
+                }
+            }
     }
 }
 

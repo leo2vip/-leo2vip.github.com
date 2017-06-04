@@ -747,6 +747,8 @@ h6 {
 
 .post .card-content {
   padding: 80px 20px; }
+  .post .card-content .post-content img {
+    width: 100%; }
 
 .footer-heading {
   display: block;
