@@ -8,9 +8,7 @@
 # Site settings
 title: leo
 email: leo2vip@sina.com
-description:  Write an awesome description for your new site here. You can edit this
-              line in _config.yml. It will appear in your document head meta (for
-              Google search results) and in your feed.xml site description.
+description:  Today, give a stranger one of your smiles. It might be the only sunshine he sees all day.
 baseurl: "" # the subpath of your site, e.g. /blog    /leo2vip.github.com
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
