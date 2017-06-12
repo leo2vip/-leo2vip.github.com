@@ -1,18 +1,28 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+title: Leo
+description: My Personal Blog
+author: leo
+logo: /static/img/my.jpg
+github: https://github.com/leo2vip
+about: Java Developer
 
-# Site settings
-title: leo
-email: leo2vip@sina.com
-description:  Today, give a stranger one of your smiles. It might be the only sunshine he sees all day.
-baseurl: "" # the subpath of your site, e.g. /blog    /leo2vip.github.com
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: ""
+url: ""
 
-# Build settings
+allowsearch: true
+
+disqus_shortname: aboutashu
+google_analytics: UA-72862926-1
+
+share:
+  twitter_username: \#
+  fb_appid: 000000000000
+
+
+enableTags: true
+tagarray: []
+
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
 markdown: kramdown
+gems: [jekyll-paginate, jekyll-gist]
